@@ -1,0 +1,43 @@
+#navbar {
+  position: fixed;
+  background-color: rgb(255, 145, 0) !important;
+  overflow: -moz-hidden-unscrollable;
+  top: 0;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  font-weight: bold;
+}
+  
+  a {
+    color: black !important;
+  }
+  
+  #navbarNav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .nav-item .nav-link {
+    color: rgb(209, 75, 75);
+    margin-left: 5vw;
+  }
+.jumbotron
+{
+    background-image: url(img/banner.jpg);
+    padding-left: 2vw;
+    padding-top:  40px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    margin-right: 1vw;
+}
+
+.container .row #box{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    width: 360px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+

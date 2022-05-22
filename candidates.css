@@ -1,0 +1,28 @@
+#navbar {
+  position: fixed;
+  background-color: rgb(255, 145, 0) !important;
+  overflow: -moz-hidden-unscrollable;
+  top: 0;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  font-weight: bold;
+}
+  
+  a {
+    color: black !important;
+  }
+  
+  #navbarNav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .nav-item .nav-link {
+    color: rgb(209, 75, 75);
+    margin-left: 5vw;
+  }
+
+.content{
+    margin-top: 65px;
+}

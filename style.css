@@ -1,0 +1,91 @@
+#navbar {
+  position: fixed;
+  background-color: rgb(255, 145, 0) !important;
+  overflow: -moz-hidden-unscrollable;
+  top: 0;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  font-weight: bold;
+}
+
+#navbarNav a, .sidenav a  {
+  color: black;
+}
+
+#navbarNav {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.nav-item .nav-link {
+  color: rgb(209, 75, 75);
+  margin-left: 5vw;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  margin-top: 60px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Active/current link */
+a.active {
+  background-color: #001aff !important;
+  color: white !important;
+}
+
+/* Links on mouse-over */
+.sidenav a:hover:not(.active) {
+  background-color: rgb(0, 162, 255);
+  color: white !important;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+.content {
+  flex-basis: 80%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.sidenav {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column !important;
+  flex-basis: 20%;
+  background-color: rgba(255, 145, 0, 0.555)
+}
+
+.sidenav-ul {
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  div.content {
+    flex-basis: 80%;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 500px) {
+  .sidenav {
+    flex-basis: 2%;
+  }
+  .content {
+    flex-basis: 98%;
+    padding: 1px 5px;
+  }
+  * {
+    font-size: 10px;
+  }
+  main {
+    margin-top: 50px;
+  }
+}
